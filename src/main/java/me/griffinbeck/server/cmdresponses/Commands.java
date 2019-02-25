@@ -8,7 +8,8 @@ public enum Commands {
     PAUSE("pause"),
     LINK("link"),
     HEARTBEAT("heartbeat"),
-    BACKLOADED_PACKET("backload");//Backloaded Packets will always take the form of <CMD,LengthOfBackload,Args...>
+    AUTONOMOUS("autonomous"),//For future use
+    BACKLOADED_PACKET("backload");//Backloaded Packets will always take the form of <CMD,LengthOfBackload,Args...>data_in_bytes
 
     private final String command;
 

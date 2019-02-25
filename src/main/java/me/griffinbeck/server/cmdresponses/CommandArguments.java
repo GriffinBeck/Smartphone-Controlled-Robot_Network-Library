@@ -16,6 +16,8 @@ public enum CommandArguments {
     RESPONSE_AUTORECCONNECT(Commands.RESPONSE, "RECONNECT"),
     REQUEST_IMG(Commands.REQUEST, "IMG"),
     RESPONSE_IMG(Commands.RESPONSE, "IMGSTART"),
+    REQUEST_AUTONOMOUS(Commands.REQUEST, "AUTO"),//TODO Added enable disable statments to response/request cmds???
+    RESPONSE_AUTONOMOUS(Commands.RESPONSE, "AUTOBEGIN"),
     HEARTBEAT_REQUEST(Commands.HEARTBEAT, "REQ"),
     HEARTBEAT_RESPONSE(Commands.HEARTBEAT, "RES"),
     BACKLOADED_PACKET_IMG(Commands.BACKLOADED_PACKET, "IMG");
